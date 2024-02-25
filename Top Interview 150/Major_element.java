@@ -1,3 +1,5 @@
+//major element:element that appears more than half the total length of the array.
+
 class Major_element{
     public static int major(int[] nums){
         int major=nums[0],count=0;
