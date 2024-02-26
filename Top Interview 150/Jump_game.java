@@ -1,5 +1,5 @@
 public class Jump_game {
-
+    //jump game:given an array>reach end using the numbers. return true if reached else false
     public static boolean canJump(int[] nums){
 
         int reachable = 0;
