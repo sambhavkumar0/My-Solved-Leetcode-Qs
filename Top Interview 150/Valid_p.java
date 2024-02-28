@@ -17,7 +17,7 @@ public class Valid_p {
 
     }
     public static void main(String[] args) {
-        String s="({lol})";
+        String s="({})[]{}";
         boolean isValid = isValid(s);
         System.out.println("the parenthesis is valid or not?????? the answer is "+isValid);
     }
