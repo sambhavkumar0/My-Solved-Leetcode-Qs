@@ -9,16 +9,16 @@ You can return the answer in any order. */
 
 class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
-         Map<Integer, Integer> myMap = new HashMap();
+         Map<Integer, Integer> m1 = new HashMap();
         int[] result = new int[2];
         
         for (int i = 0; i < nums.length; i++){
-            if (myMap.containsKey(nums[i])){
-               result[0] = myMap.get(nums[i]);
+            if (m1.containsKey(nums[i])){
+               result[0] = m1.get(nums[i]);
                result[1] = i;
                break;
             }
-            else myMap.put((target - nums[i]), i);
+            else m1.put((target - nums[i]), i);
         }
         
         return result;
