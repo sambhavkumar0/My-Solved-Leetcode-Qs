@@ -1,3 +1,8 @@
+/**Basically the point is we take the roman string and move from right to left.
+ * if the numeral in the previous iteration numeral is larger than the current numeral ,we subtract else we add.
+ */
+
+
 public class RomanToInt {
     public static int romanToInt(String s) {
           int ans = 0, num = 0;
